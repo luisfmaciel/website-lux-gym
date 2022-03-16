@@ -1,0 +1,73 @@
+.memberships {
+  background-color: #131313;
+  color: #fff;
+  padding: 6rem calc((100vw - 1200px) / 2 );
+  text-align: center;
+  height: 800px;
+}
+
+.memberships h1 {
+  margin-bottom: 1rem;
+  font-size: clamp(2rem, 5vw, 3rem);
+  padding: 0 1rem;
+}
+
+.memberships__desc {
+  margin-bottom: 2rem;
+  font-size: clamp(1rem, 3vw, 1.5rem);
+  padding: 1rem;
+}
+
+.memberships__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 1rem;
+}
+
+.memberships_card {
+  padding: 2rem;
+  min-height: 400px;
+  width: 325px;
+  background-color: #fff;
+  color: #131313;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.memberships_perks {
+  min-height: 150px;
+}
+
+.memberships_card p {
+  margin-bottom: 1rem;
+}
+
+.card-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #1818ff;
+}
+
+.memberships_card h3 {
+  font-size: clamp(1rem, 5vw, 2rem);
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 1100px) {
+  .memberships {
+    height: auto;
+  }
+  
+  .memberships__wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .memberships_card {
+    width: 90%;
+    margin-bottom: 2rem;
+  }
+}

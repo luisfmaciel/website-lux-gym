@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@400;700&family=Sora:wght@400;700&display=swap" rel="stylesheet"> 
+  <script src="https://kit.fontawesome.com/6f47bfcef1.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+  <link rel="stylesheet" href="./assets/styles/global.css">
+  <link rel="stylesheet" href="./assets/styles/navbar.css">
+  <link rel="stylesheet" href="./assets/styles/hero.css">
+  <link rel="stylesheet" href="./assets/styles/services.css">
+  <link rel="stylesheet" href="./assets/styles/memberships.css">
+  <link rel="stylesheet" href="./assets/styles/modality.css">
+  <link rel="stylesheet" href="./assets/styles/email.css">
+  <link rel="stylesheet" href="./assets/styles/footer.css">
+  <title>Lux Gym</title>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="#home" id="navbar__logo"><span>Lux</span>Gym</a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="#home" class="navbar__links" id="home-page">Home</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#services" class="navbar__links" id="services-page">Services</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#memberships" class="navbar__links" id="plans-page">Plans</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#modality" class="navbar__links" id="modality-page">Modality</a>
+          </li>
+          <li class="navbar__btn">
+            <a href="#sign-up" class="button" id="signup">Sign Up</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="hero" id="home">
+      <div class="hero__content">
+        <h1 class="hero__heading animate-hero">Lux Fitness</h1>
+        <p class="hero__description animate-hero">Join Now for $29</p>
+        <a href="/" class="hero__button animate-hero">Get Started</a>
+      </div>
+    </section>
+    <section class="services" id="services">
+      <div class="services__container">
+        <div>
+          <p class="top-line animate-services">Features</p>
+          <h1 class="services__heading">What we offer</h1>
+          <div class="services__features animate-services">
+            <p class="services__feature animate-services"><i class="fas fa-check-circle"></i> Group Fitness Classes</p>
+            <p class="services__feature animate-services"><i class="fas fa-check-circle"></i> Personal Trainer Sessions</p>
+            <p class="services__feature animate-services"><i class="fas fa-check-circle"></i> Indoor Pool</p>
+            <p class="services__feature animate-services"><i class="fas fa-check-circle"></i> Steam Room and Sauna</p>
+            <p class="services__feature animate-services"><i class="fas fa-check-circle"></i> Basketball Court</p>
+            <p class="services__feature animate-services"><i class="fas fa-check-circle"></i> Open 24/7</p>
+          </div>
+        </div>
+        <div>
+          <img src="./assets/images//gym-2.jpg" alt="gym" class="services__img animate-services-img">
+        </div>
+      </div>
+    </section>
+    <section class="memberships" id="memberships">
+      <h1 class="animate-memberships">View Our Plans</h1>
+      <p class="memberships__desc animate-memberships">Get started today and receive 25% off your first month</p>
+      <div class="memberships__wrapper">
+        <div class="memberships_card animate-memberships-card">
+          <div class="memberships__title">
+            <i class="fas fa-dumbbell card-icon"></i>
+            <h3>Starter</h3>
+          </div>
+          <div class="memberships__perks">
+            <p>Get access to the entire gym</p>
+            <p>$29 per month</p>
+          </div>
+          <a href="/" class="hero__button">Sign Up</a>
+        </div>
+        <div class="memberships_card animate-memberships-card">
+          <div class="memberships__title">
+            <i class="fas fa-bicycle card-icon"></i>
+            <h3>Silver</h3>
+          </div>
+          <div class="memberships__perks">
+            <p>Get access to the entire gym</p>
+            <p>Group Fitness Classes</p>
+            <p>$49 per month</p>
+          </div>
+          <a href="/" class="hero__button">Sign Up</a>
+        </div>
+        <div class="memberships_card animate-memberships-card">
+          <div class="memberships__title">
+            <i class="fas fa-crown card-icon"></i>
+            <h3>Gold</h3>
+          </div>
+          <div class="memberships__perks">
+            <p>Get access to the entire gym</p>
+            <p>Group Fitness Classes</p>
+            <p>Private Personal Training</p>
+            <p>$99 per month</p>
+          </div>
+          <a href="/" class="hero__button">Sign Up</a>
+        </div>
+      </div>
+    </section>
+    <section class="modality" id="modality">
+      <div class="modality__container">
+        <div>
+          <img src="./assets/images/gym-3.jpg" alt="gym" class="modality__img animate-modality-img">
+        </div>
+        <div>
+          <p class="top-line animate-modality">Modality</p>
+          <h1 class="modality__heading animate-modality">Functional Training</h1>
+          <p class="modality__text animate-modality">Functional training is purpose-driven training, but also fun and varied, which will keep you engaged. Here you will be free to choose the modality that interests you the most.</p>
+          <a href="/" class="hero__button">Learn More</a>
+        </div>
+      </div>
+    </section>
+    <section class="email">
+      <div class="email__content">
+        <h1 class="animate-email">Get Access to Members Only Perks</h1>
+        <p class="animate-email">Sign Up for our newslatter below to get $100 off yout first personal training session!</p>
+        <form action="#">
+          <div class="form__wrap">
+            <label for="email">
+              <input type="email" placeholder="Enter your email" id="email">
+            </label>
+            <button type="submit" class="hero__button">Sign Up</button>
+          </div>
+        </form>
+      </div> 
+    </section>
+    <footer class="footer">
+      <div class="footer__wrapper">
+        <div class="footer__desc">
+          <a href="#home" id="navbar__logo"><span>Lux</span>Gym</a>
+          <p>Luxury fitness gym located in downtown Miami.</p>
+          <p id="phone">305 - 123 - 4567</p>
+        </div>
+        <div class="footer__links">
+          <h2 class="footer__title">Contact Us</h2>
+          <a href="#home" class="footer__link">Contact</a>
+          <a href="#home" class="footer__link">Suport</a>
+          <a href="#home" class="footer__link">Sponsorships</a>
+        </div>
+        <div class="footer__links">
+          <h2 class="footer__title">Memberships</h2>
+          <a href="#home" class="footer__link">Pricing</a>
+          <a href="#home" class="footer__link">Plans</a>
+          <a href="#home" class="footer__link">FAQ</a>
+        </div>
+        <div class="footer__links">
+          <h2 class="footer__title">Social Medias</h2>
+          <a href="#home" class="footer__link">Facebook</a>
+          <a href="#home" class="footer__link">Instagram</a>
+          <a href="#home" class="footer__link">Youtube</a>
+          <a href="#home" class="footer__link">Twitter</a>
+        </div>
+      </div>
+      <div class="footer__rigths">
+        <p>LuxGym &copy 2022 All rigths reserved</p>
+      </div>
+    </footer>
+  </main>
+  <script src="./app.js"></script>
+</body>
+</html>
